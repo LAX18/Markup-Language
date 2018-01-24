@@ -1,1 +1,50 @@
-/*
+/* Base CSS Markup File
+       v.1.0
+       LAX18
+___________________________ */
+
+/* Text Coloring  DONE */
+.red {color: red;}
+.blue {color: blue;}
+.green {color: green;}
+.orange {color: orange;}
+.yellow {color: yellow;}
+.purple {color: purple;}
+  .black {color: black;}
+.white {color: white;}
+
+/* Background Coloring DONE */
+  .bkred {background-color:red;}
+  .bkblue {background-color: blue;}
+  .bkgreen {background-color: green;}
+  .bkorange {background-color: orange;}
+  .bkyellow {background-color: yellow;}
+  .bkpurple {background-color: purple;}
+  .bkblack {background-color: black;}
+  .bkwhite {background-color: white;}
+
+/* Text Decoration DONE */
+.bold {font-weight: bold}
+.italic {font-style: italic}
+.underline {text-decoration: underline;}
+.overline {text-decoration: overline;}
+.strikethrough {text-decoration: line-through;}
+.none {text-decoration: none;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.titlecase {text-transform: capitalize;}
+
+/* Fonts  DONE */
+.times {font-family: "Times New Roman";}
+.arial {font-family: "Arial";}
+.georgia {font-family: "Georgia";}
+.verdana {font-family: "Verdana";}
+.serif {font-family: serif;}
+.sansserif {font-family: "Sans-serif";}
+.monospace {font-family: "monospace";}
+
+/* Text Alignment  DONE */
+  .center {text-align: center;}
+    .left {text-align: left;}
+  .right {text-align: right;}
+  .justify {text-align: justify;}
