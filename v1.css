@@ -44,7 +44,10 @@ ___________________________ */
 .monospace {font-family: "monospace";}
 
 /* Text Alignment  DONE */
-  .center {text-align: center;}
-    .left {text-align: left;}
-  .right {text-align: right;}
-  .justify {text-align: justify;}
+  .txcenter {text-align: center;}
+    .txleft {text-align: left;}
+  .txright {text-align: right;}
+  .txjustify {text-align: justify;}
+
+/* Alignment */
+.center {margin: auto;}
