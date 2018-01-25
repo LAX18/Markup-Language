@@ -1,7 +1,7 @@
 /* Base CSS Markup File
        v.1.0
        LAX18
-___________________________ */
+_______________________ */
 
 /* Text Coloring  DONE */
 .red {color: red;}
@@ -10,18 +10,18 @@ ___________________________ */
 .orange {color: orange;}
 .yellow {color: yellow;}
 .purple {color: purple;}
-  .black {color: black;}
+.black {color: black;}
 .white {color: white;}
 
 /* Background Coloring DONE */
-  .bkred {background-color:red;}
-  .bkblue {background-color: blue;}
-  .bkgreen {background-color: green;}
-  .bkorange {background-color: orange;}
-  .bkyellow {background-color: yellow;}
-  .bkpurple {background-color: purple;}
-  .bkblack {background-color: black;}
-  .bkwhite {background-color: white;}
+.bkred {background-color:red;}
+.bkblue {background-color: blue;}
+.bkgreen {background-color: green;}
+.bkorange {background-color: orange;}
+.bkyellow {background-color: yellow;}
+.bkpurple {background-color: purple;}
+.bkblack {background-color: black;}
+.bkwhite {background-color: white;}
 
 /* Text Decoration DONE */
 .bold {font-weight: bold}
@@ -44,12 +44,29 @@ ___________________________ */
 .monospace {font-family: "monospace";}
 
 /* Text Alignment  DONE */
-  .txcenter {text-align: center;}
-    .txleft {text-align: left;}
-  .txright {text-align: right;}
-  .txjustify {text-align: justify;}
+.txcenter {text-align: center;}
+.txleft {text-align: left;}
+.txright {text-align: right;}
+.txjustify {text-align: justify;}
 
 /* Alignment */
 .center {margin: auto;}
 .left {float: left;}
 .right {float: right;}
+
+/* The following were shamelessly ripped from UniChat. */
+/* Text Style */
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+
+
+/* animation */
+@keyframes _rgb {
+  0% { color: #f00; }
+  33% { color: #0f0; }
+  66% { color: #00f; }
+  100% { color: #f00; }
+}
+
+.rgb {animation: _rgb 5000ms infinite;}
+.rgb-faster {animation: _rgb 2500ms infinite;}
