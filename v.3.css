@@ -1,0 +1,173 @@
+/* Base CSS Markup File
+       v.3.0
+       LAX18
+_______________________ */
+
+/* Text Coloring  DONE */
+red {color: red;}
+blue {color: blue;}
+green {color: green;}
+orange {color: orange;}
+yellow {color: yellow;}
+purple {color: purple;}
+black {color: black;}
+white {color: white;}
+
+/* Background Coloring DONE 
+bkred {background-color:red;}
+bkblue {background-color: blue;}
+bkgreen {background-color: green;}
+bkorange {background-color: orange;}
+bkyellow {background-color: yellow;}
+bkpurple {background-color: purple;}
+bkblack {background-color: black;}
+bkwhite {background-color: white;} */
+
+/* Text Decoration DONE */
+underline {text-decoration: underline;}
+overline {text-decoration: overline;}
+strikethrough {text-decoration: line-through;}
+none {text-decoration: none;}
+uppercase {text-transform: uppercase;}
+lowercase {text-transform: lowercase;}
+titlecase {text-transform: capitalize;}
+
+/* Fonts  DONE */
+times {font-family: "Times New Roman";}
+arial {font-family: "Arial";}
+georgia {font-family: "Georgia";}
+verdana {font-family: "Verdana";}
+serif {font-family: serif;}
+sansserif {font-family: "Sans-serif";}
+monospace {font-family: "monospace";}
+
+/* Text Alignment  DONE */
+txcenter {text-align: center;}
+txleft {text-align: left;}
+txright {text-align: right;}
+txjustify {text-align: justify;}
+
+/* Alignment */
+center {margin: auto;}
+left {float: left;}
+right {float: right;}
+
+/* The following were shamelessly ripped from UniChat. */
+
+
+/* Animation */
+@keyframes _rgb {
+  0% { color: #f00; }
+  33% { color: #0f0; }
+  66% { color: #00f; }
+  100% { color: #f00; }
+}
+
+rgb {animation: _rgb 5000ms infinite;}
+rgb-faster {animation: _rgb 2500ms infinite;}
+
+/* Border Styles */
+dotted {border-style: dotted;}
+dashed {border-style: dashed;}
+solid {border-style: solid;}
+double {border-style: double;}
+groove {border-style: groove;}
+ridge {border-style: ridge;}
+inset {border-style: inset;}
+outset {border-style: outset;}
+none {border-style: none;}
+hidden {border-style: hidden;}
+
+/* Text Coloring  DONE */
+.red {color: red;}
+.blue {color: blue;}
+.green {color: green;}
+.orange {color: orange;}
+.yellow {color: yellow;}
+.purple {color: purple;}
+.black {color: black;}
+.white {color: white;}
+
+/* Background Coloring DONE */
+.bkred {background-color:red;}
+.bkblue {background-color: blue;}
+.bkgreen {background-color: green;}
+.bkorange {background-color: orange;}
+.bkyellow {background-color: yellow;}
+.bkpurple {background-color: purple;}
+.bkblack {background-color: black;}
+.bkwhite {background-color: white;}
+
+/* Text Decoration DONE */
+.bold {font-weight: bold}
+.italic {font-style: italic}
+.underline {text-decoration: underline;}
+.overline {text-decoration: overline;}
+.strikethrough {text-decoration: line-through;}
+.none {text-decoration: none;}
+.uppercase {text-transform: uppercase;}
+.lowercase {text-transform: lowercase;}
+.titlecase {text-transform: capitalize;}
+
+/* Fonts  DONE */
+.times {font-family: "Times New Roman";}
+.arial {font-family: "Arial";}
+.georgia {font-family: "Georgia";}
+.verdana {font-family: "Verdana";}
+.serif {font-family: serif;}
+.sansserif {font-family: "Sans-serif";}
+.monospace {font-family: "monospace";}
+
+/* Text Alignment  DONE */
+.txcenter {text-align: center;}
+.txleft {text-align: left;}
+.txright {text-align: right;}
+.txjustify {text-align: justify;}
+
+/* Alignment */
+.center {margin: auto;}
+.left {float: left;}
+.right {float: right;}
+
+/* The following were shamelessly ripped from UniChat. */
+/* Text Style */
+.bold {font-weight: bold;}
+.italic {font-style: italic;}
+
+
+/* Animation */
+@keyframes _rgb {
+  0% { color: #f00; }
+  33% { color: #0f0; }
+  66% { color: #00f; }
+  100% { color: #f00; }
+}
+
+.rgb {animation: _rgb 5000ms infinite;}
+.rgb-faster {animation: _rgb 2500ms infinite;}
+
+/* Border Styles */
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+
+/* Border Color */
+.bdrred {border-color: red;}
+.bdrblue {border-color: blue;}
+.bdrgreen {border-color: green;}
+.bdrorange {border-color: orange;}
+.bdryellow {border-color: yellow;}
+.bdrpurple {border-color: purple;}
+.bdrwhite {border-color: white;}
+.bdrblack {border-color: black;}
+
+/* Rounded Borders */
+.roundedbdr {border-radius: 5px;}
+.sltroundedbdr {border-radius: 3px;}
