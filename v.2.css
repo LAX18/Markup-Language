@@ -13,7 +13,7 @@ purple {color: purple;}
 black {color: black;}
 white {color: white;}
 
-/* Background Coloring DONE */
+/* Background Coloring DONE 
 bkred {background-color:red;}
 bkblue {background-color: blue;}
 bkgreen {background-color: green;}
@@ -21,11 +21,9 @@ bkorange {background-color: orange;}
 bkyellow {background-color: yellow;}
 bkpurple {background-color: purple;}
 bkblack {background-color: black;}
-bkwhite {background-color: white;}
+bkwhite {background-color: white;} */
 
 /* Text Decoration DONE */
-bold {font-weight: bold}
-italic {font-style: italic}
 underline {text-decoration: underline;}
 overline {text-decoration: overline;}
 strikethrough {text-decoration: line-through;}
@@ -55,9 +53,6 @@ left {float: left;}
 right {float: right;}
 
 /* The following were shamelessly ripped from UniChat. */
-/* Text Style */
-bold {font-weight: bold;}
-italic {font-style: italic;}
 
 
 /* Animation */
@@ -83,16 +78,3 @@ outset {border-style: outset;}
 none {border-style: none;}
 hidden {border-style: hidden;}
 
-/* Border Color */
-bdrred {border-color: red;}
-bdrblue {border-color: blue;}
-bdrgreen {border-color: green;}
-bdrorange {border-color: orange;}
-bdryellow {border-color: yellow;}
-bdrpurple {border-color: purple;}
-bdrwhite {border-color: white;}
-bdrblack {border-color: black;}
-
-/* Rounded Borders */
-roundedbdr {border-radius: 5px;}
-sltroundedbdr {border-radius: 3px;}
