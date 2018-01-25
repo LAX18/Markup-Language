@@ -60,7 +60,7 @@ _______________________ */
 .italic {font-style: italic;}
 
 
-/* animation */
+/* Animation */
 @keyframes _rgb {
   0% { color: #f00; }
   33% { color: #0f0; }
@@ -70,3 +70,29 @@ _______________________ */
 
 .rgb {animation: _rgb 5000ms infinite;}
 .rgb-faster {animation: _rgb 2500ms infinite;}
+
+/* Border Styles */
+.dotted {border-style: dotted;}
+.dashed {border-style: dashed;}
+.solid {border-style: solid;}
+.double {border-style: double;}
+.groove {border-style: groove;}
+.ridge {border-style: ridge;}
+.inset {border-style: inset;}
+.outset {border-style: outset;}
+.none {border-style: none;}
+.hidden {border-style: hidden;}
+
+/* Border Color */
+.bdrred {border-color: red;}
+.bdrblue {border-color: blue;}
+.bdrgreen {border-color: green;}
+.bdrorange {border-color: orange;}
+.bdryellow {border-color: yellow;}
+.bdrpurple {border-color: purple;}
+.bdrwhite {border-color: white;}
+.bdrblack {border-color: black;}
+
+/* Rounded Borders */
+.roundedbdr {border-radius: 5px;}
+.sltroundedbdr {border-radius: 3px;}
