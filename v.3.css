@@ -78,6 +78,9 @@ outset {border-style: outset;}
 none {border-style: none;}
 hidden {border-style: hidden;}
 
+
+/* This is CLASS attributes section, you can use these to style a section */
+
 /* Text Coloring  DONE */
 .red {color: red;}
 .blue {color: blue;}
@@ -97,17 +100,6 @@ hidden {border-style: hidden;}
 .bkpurple {background-color: purple;}
 .bkblack {background-color: black;}
 .bkwhite {background-color: white;}
-
-/* Text Decoration DONE */
-.bold {font-weight: bold}
-.italic {font-style: italic}
-.underline {text-decoration: underline;}
-.overline {text-decoration: overline;}
-.strikethrough {text-decoration: line-through;}
-.none {text-decoration: none;}
-.uppercase {text-transform: uppercase;}
-.lowercase {text-transform: lowercase;}
-.titlecase {text-transform: capitalize;}
 
 /* Fonts  DONE */
 .times {font-family: "Times New Roman";}
@@ -129,11 +121,7 @@ hidden {border-style: hidden;}
 .left {float: left;}
 .right {float: right;}
 
-/* The following were shamelessly ripped from UniChat. */
-/* Text Style */
-.bold {font-weight: bold;}
-.italic {font-style: italic;}
-
+/* The following was shamelessly ripped from UniChat. */
 
 /* Animation */
 @keyframes _rgb {
